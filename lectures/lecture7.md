@@ -125,3 +125,27 @@ const mongoURL = DB_URL;
 
 
 ```
+
+## Hosting Node js server 
+1. Host NodeJS Server
+2. Now we are going to host our server so that our Application or Endpoints is
+accessible to all the user over the Intemet.
+3. We are using localhost and our endpoints are only accessible within our
+computer
+4. We have to make it publicly available, so there are lots of company who helps us to make our abplication run 24* 7
+Like, AWS, Google Cloud, etc. 
+5. but these charge too much amount for our application
+6. So we are going to use some free services to host our nodeJS application,
+which lots of company provides for developer purpose.
+7. Like, Heroku, Netlify, Render, etc
+
+## using render 
+1. creaate acpunt using github
+2. select web services
+3. ![alt text](image-10.png)
+4. ![alt text](image-11.png)
+5. feed you env variables
+6. ![alt text](image-12.png)
+7. ![alt text](image-13.png)
+8. copy your url
+    1. https://hello-world-nodejs-sb6z.onrender.com
