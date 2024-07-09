@@ -1,0 +1,20 @@
+[
+    {
+            "key": "alt+right",
+            "command": "cursorWordEndRight",
+            "when": "textInputFocus && !accessibilityModeEnabled"
+        },
+        {
+            "key": "alt+left",
+            "command": "cursorWordEndLeft",
+            "when": "textInputFocus && !accessibilityModeEnabled"
+        },
+        {
+            "key": "ctrl+right",
+            "command": "cursorLineEnd"
+        },
+        {
+            "key": "ctrl+left",
+            "command": "cursorLineStart"
+        }
+    ]
