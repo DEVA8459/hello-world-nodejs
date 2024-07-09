@@ -26,3 +26,19 @@
     node_modules/
     ```
 4. then git add .gitignore
+
+## to delete folder after git add .
+1. git rm -r --cached node_modules 
+
+## to enter who you are 
+1. git config --global user.email "devendragour907@gmail.com"
+2. git config --global user.name "Devendra Gour"
+
+## to save snapshot of a code
+1. git commit -m "five meaning full msg here "
+
+## to save changes 
+    1. git status 
+    2. git add . or git add filename 
+    3. git commit -m "enter msg for anathor version 2"
+
