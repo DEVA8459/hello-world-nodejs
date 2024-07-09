@@ -3,6 +3,10 @@ const app = express();
 // importing db
 const db = require("./db");
 
+// .env 
+require('dotenv').config();
+const PORT = process.env.PORT || 3000;
+
 // body parser
 
 const bodyParser = require("body-parser");
@@ -34,7 +38,7 @@ app.get("/Idli", (req, res) => {
 
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("server zindaa hai");
 });
 // 3000 is a port
