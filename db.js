@@ -1,27 +1,25 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose")
 
 // defining mongodb url
 
-// for local LOCAL_URL
-// uncoment below if using local
 
-// const mongoURL= LOCAL_URL
 
 // for atlas DB_URL
 
 // for env
 require('dotenv').config();
 
-const DB_URL =process.env.MONGODB_URL
+// for local LOCAL_URL
+// uncoment below if using local
 
-const mongoURL=DB_URL
+// const mongoURL= process.env.LOCAL_URL
+
+const mongoURL=process.env.MONGODB_URL
 
 // setup MOngoDB connection 
 
-mongoose.connect(mongoURL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+
+mongoose.connect(mongoURL);
 
 
 // get default connetion 
